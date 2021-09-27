@@ -1,0 +1,248 @@
+{
+	"info": {
+		"_postman_id": "1ffef99f-7341-4144-a70d-c2f63343a16a",
+		"name": "Api Livros e Filmes",
+		"description": "# Introduction\nEssa é uma pequena API para estudo e teste em Laravel. \nEla faz um CRUD utilizando os métodos listados abaixo:\n\n\n# Authentication\nA ser implementado",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "api/filmes",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "api/filmes",
+					"host": [
+						"api"
+					],
+					"path": [
+						"filmes"
+					]
+				},
+				"description": "Lista todos os filmes"
+			},
+			"response": []
+		},
+		{
+			"name": "api/filme/{id}",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "api/filme/{id}",
+					"host": [
+						"api"
+					],
+					"path": [
+						"filme",
+						"{id}"
+					]
+				},
+				"description": "Lista por ID"
+			},
+			"response": []
+		},
+		{
+			"name": "api/filme",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "titulo, ano e autor"
+				},
+				"url": {
+					"raw": "api/filme",
+					"host": [
+						"api"
+					],
+					"path": [
+						"filme"
+					]
+				},
+				"description": "Cria novo filme"
+			},
+			"response": []
+		},
+		{
+			"name": "api/filme/{id}",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "titulo, ano e autor"
+				},
+				"url": {
+					"raw": "api/filme/{id}",
+					"host": [
+						"api"
+					],
+					"path": [
+						"filme",
+						"{id}"
+					]
+				},
+				"description": "Atualiza"
+			},
+			"response": []
+		},
+		{
+			"name": "api/filme/{id}",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "api/filme/{id}",
+					"host": [
+						"api"
+					],
+					"path": [
+						"filme",
+						"{id}"
+					]
+				},
+				"description": "Deleta um filme"
+			},
+			"response": []
+		},
+		{
+			"name": "api/livros",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "api/livros",
+					"host": [
+						"api"
+					],
+					"path": [
+						"livros"
+					]
+				},
+				"description": "Lista todos os Livros"
+			},
+			"response": []
+		},
+		{
+			"name": "api/livro/{id}",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "api/livro/{id}",
+					"host": [
+						"api"
+					],
+					"path": [
+						"livro",
+						"{id}"
+					]
+				},
+				"description": "Lista por ID"
+			},
+			"response": []
+		},
+		{
+			"name": "api/livro",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "titulo, ano e autor"
+				},
+				"url": {
+					"raw": "api/livro",
+					"host": [
+						"api"
+					],
+					"path": [
+						"livro"
+					]
+				},
+				"description": "Cria novo Livro"
+			},
+			"response": []
+		},
+		{
+			"name": "api/livro/{id}",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "titulo, ano e autor"
+				},
+				"url": {
+					"raw": "api/livro/{id}",
+					"host": [
+						"api"
+					],
+					"path": [
+						"livro",
+						"{id}"
+					]
+				},
+				"description": "Atualiza"
+			},
+			"response": []
+		},
+		{
+			"name": "api/livro/{id}",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "api/livro/{id}",
+					"host": [
+						"api"
+					],
+					"path": [
+						"livro",
+						"{id}"
+					]
+				},
+				"description": "Deleta"
+			},
+			"response": []
+		}
+	]
+}
